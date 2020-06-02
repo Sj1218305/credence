@@ -8,8 +8,8 @@ var moviesSchema = new Schema({
         type : String,
     },
     description : {
-        type: String,
-        required : true
+        type: String
+       
     }
 });
 
