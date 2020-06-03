@@ -5,7 +5,6 @@ exports.showMovies = function(req,res,next){
     	if(err){
     		console.log(err);
     	}
-    console.log(movies);
     res.status(200).json({message:"these are the movies",movies:movies});
 	})
 }
