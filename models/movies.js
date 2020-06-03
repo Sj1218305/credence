@@ -2,15 +2,14 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var moviesSchema = new Schema({
     name :{
-        type: String,
+        type: String    
     },
-    image:{
-        type : String,
+    img:{
+        type : String
     },
-    description : {
+    summary: {
         type: String
-       
     }
 });
 
-module.exports = mongoose.model('movies',moviesSchema);
+module.exports = mongoose.model('mycollection',moviesSchema);
